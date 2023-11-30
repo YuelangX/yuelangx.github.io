@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gaussian Head Avatar's Project Page</title>
+
+<link href="./css/bootstrap-4.0.0.css" rel="stylesheet">
+<script id="MathJax-script" async src="https://cdn.
+jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<div id="page_container">
+<header>
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <!--<h5 class="text-center">CVPR 2023</h5>-->
+          <h2 class="text-center">Gaussian Head Avatar: </h2>
+          <h2 class="text-center">Ultra High-fidelity Head Avatar via Dynamic Gaussians</h2>
+          <p class="text-center">&nbsp;</p>
+          <h6 class="text-center">Yuelang Xu<sup>1</sup>, Benwang Chen<sup>1</sup>, Zhe Li<sup>1</sup>, <a href="https://hongwenzhang.github.io/">Hongwen Zhang<sup>1</sup></a>, <a href="https://lizhenwangt.github.io/">Lizhen Wang<sup>1</sup></a>, Zerong Zheng<sup>2</sup>, <a href="http://www.liuyebin.com/">Yebin Liu<sup>1</sup></a></h6>
+          <p class="text-center"><sup>1</sup>Tsinghua University  <sup>2</sup>NNKosmos Technology
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section>
+  <div class="container">
+    <p>&nbsp;</p>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Abstract</h2>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center  offset-xl-0 col-xl-12">
+        <p class="text-left"><em>Creating high-fidelity 3D head avatars has always been a research hotspot, but there remains a great challenge under lightweight sparse view setups.
+          In this paper, we propose Gaussian Head Avatar represented by controllable 3D Gaussians for high-fidelity head avatar modeling.
+          We optimize the neutral 3D Gaussians and a fully learned MLP-based deformation field to capture complex expressions. 
+          The two parts benefit each other, thereby our method can model fine-grained dynamic details while ensuring expression accuracy. 
+          Furthermore, we devise a well-designed geometry-guided initialization strategy based on implicit SDF and Deep Marching Tetrahedra for the stability and convergence of the training procedure.
+          Experiments show our approach outperforms other state-of-the-art sparse-view methods, achieving ultra high-fidelity rendering quality at 2K resolution even under exaggerated expressions.  </em></p>
+        <p class="text-left">&nbsp;</p>
+        <img src="assets/teaser.png" width="1080" alt="">
+        <p class="text-left">Fig 1.Gaussian head avatar achieves ultra high-fidelity image synthesis with controllable expressions at 2K resolution. The above shows different views of the synthesized avatar, and the bottom shows different identities animated by the same expression. 16 views are used during the training.</p>
+        <p>&nbsp;</p>
+    
+		<h5 class="text-center">
+          <a>[arXiv]</a>
+          <a href="https://github.com/YuelangX/Gaussian-Head-Avatar">[Code]</a>
+        </h5>
+        <p class="text-left">&nbsp;</p>
+    
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Overview</h2>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center  offset-xl-0 col-xl-12">
+		    <img src="assets/overview.png" width="1080" alt="">
+        <p class="text-left">Fig 2.&nbsp;<b>Overview of the Gaussian Head Avatar.</b>
+          The overview of the Gaussian Head Avatar rendering and reconstruction. We first optimize the guidance model including a neutral mesh, a deformation MLP and a color MLP in the Initialization stage. Then we use them to initialize the neutral Gaussians and the dynamic generator. Finally, 2K RGB images are synthesized through differentiable rendering and the super-resolution network. The Gaussian Head Avatar are trained under the supervision of multi-view RGB videos.</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Results </h2>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center col-xl-12">
+        <p>&nbsp;</p>
+		    <video width="1080" height=""  muted autoplay="autoplay" loop="loop">
+          <source src="assets/more_cross.mp4" type="video/mp4">
+        </video>
+        <p class="text-left">Fig 7.&nbsp;<b>Cross-identity reenactment results.</b></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center col-xl-12">
+        <p>&nbsp;</p>
+		    <video width="1080" height=""  muted autoplay="autoplay" loop="loop">
+          <source src="assets/8_views_input.mp4" type="video/mp4">
+        </video>
+        <p class="text-left">Fig 8.&nbsp;<b>8 views input.</b></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center col-xl-12">
+        <p>&nbsp;</p>
+		    <video width="1080" height=""  muted autoplay="autoplay" loop="loop">
+          <source src="assets/6_views_input.mp4" type="video/mp4">
+        </video>
+        <p class="text-left">Fig 8.&nbsp;<b>6 views input.</b></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center col-xl-12"> 
+		    <p>&nbsp;</p>
+		    <img src="assets/comparisons_self.png" width="1080" alt="">
+        <p class="text-left">Fig 5.&nbsp;<b>Qualitative comparisons of different methods on self reenactment task. From left to right: NeRFBlendShape, NeRFace, HAvatar and Ours. Our method can reconstruct details like beards, teeth, etc. with high quality.</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center col-xl-12"> 
+		    <p>&nbsp;</p>
+		    <img src="assets/comparisons_cross.png" width="1080" alt="">
+        <p class="text-left">Fig 6.&nbsp;<b>Qualitative comparisons of different methods on cross-identity reenactment task. From left to right: NeRFBlendShape, NeRFace, HAvatar and Ours. Our method synthesizes high-fidelity images while ensuring the accuracy of expression transfer.</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-lg-12 mb-4 mt-2 text-center">
+        <h2>Demo Video</h2>
+      </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+      <video width="800" height="450" controls autoplay>
+        <source src="https://www.youtube.com/watch?v=kvrrI3EoM5g">
+      </video>
+      <p>&nbsp;</p>
+    </div>
+	<hr>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Citation</h2>
+      </div>
+    </div>
+  
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-left">
+      <p><span style="color:#000000;font-family:&#39;Courier New&#39;;font-size:15px;">@article{xu2023gaussianheadavatar, <br>
+			title={Gaussian Head Avatar: Ultra High-fidelity Head Avatar via Dynamic Gaussians},<br>
+			author={Xu, Yuelang and Chen, Benwang and Li, Zhe and Zhang, Hongwen and Wang, Lizhen and Zheng, Zerong and Liu, Yebin},<br>
+			booktitle={ArXiv},<br>
+			year={2023}<br>
+		}</span></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </div>
+  
+    <div class="row"> </div>
+  </div>
+  <div class="jumbotron"> </div>
+</section>	
+</div>
+
+<!-jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="./js/jquery-3.2.1.min.js"></script> 
+<!-Include all compiled plugins (below), or include individual files as needed --> 
+<script src="./js/popper.min.js"></script> 
+<script src="./js/bootstrap-4.0.0.js"></script>
+
+</body><div style="all: initial;"><div id="__hcfy__" style="all: initial;"></div></div></html>
