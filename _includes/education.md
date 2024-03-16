@@ -13,13 +13,11 @@
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
-    <div class="links">
-      {% if link.pdf %} 
+    <div>
       <a>PDF</a>
-      {% endif %}
-      {% if link.code %} 
+    </div>
+    </div>
       <a>Code</a>
-      {% endif %}
     </div>
   </div>
 </div>
