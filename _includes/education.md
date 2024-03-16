@@ -15,10 +15,10 @@
       <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
     <div class="links">
       {% if link.pdf %} 
-      <a href="{{ link.pdf }}" >PDF</a>
+      <a>PDF</a>
       {% endif %}
       {% if link.code %} 
-      <a href="{{ link.code }}" >Code</a>
+      <a>Code</a>
       {% endif %}
     </div>
   </div>
