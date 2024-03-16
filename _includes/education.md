@@ -14,7 +14,7 @@
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <a href="{{ link.pdf }}">{{ link.title }}</a>
     PDF
-    Code
+    Code</div>
 </div>
 
 <br>
