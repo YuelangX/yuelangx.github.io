@@ -6,10 +6,10 @@
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="{{ link.image }}" style="width=25;height=25">
   </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <a href="{{ link.pdf }}">{{ link.title }}</a>
-    <div>PDF</div>
-    <div>PDF</div>
+  <div style="position: relative;padding-right: 15px;padding-left: 20px;">
+    {{ link.title }}
+    {{ link.title }}
+    {{ link.title }}
   </div>
 </div>
 
