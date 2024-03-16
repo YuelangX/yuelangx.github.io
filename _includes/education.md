@@ -10,7 +10,9 @@
 Ph.D. Student. Sep. 2020 - Jun. 2025<br>
 Department of Automation, Tsinghua University<br>
 </td>
+</tr>
 
+<tr>
 <td style="padding:20px;width:25%;vertical-align:middle;border:none" align="center">
 <img width="80" src="./assets/img/tsinghua.png"/> 
 </td>
