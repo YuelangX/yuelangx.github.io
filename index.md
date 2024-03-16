@@ -14,6 +14,6 @@ I am currently a 4th year Ph.D. student at Department of Automation, Tsinghua Un
 
 {% include_relative _includes/background.md %}
 
-{% include_relative _includes/publications.md %}
+
 
 {% include_relative _includes/services.md %}
