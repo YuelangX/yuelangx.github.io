@@ -3,6 +3,7 @@
 <div>
 <table style="width:100%;border:none;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;font-size: large">
   
+<tr>
 <td style="padding:20px;width:25%;vertical-align:middle;border:none" align="center">
 <img width="80" src="./assets/img/tsinghua.png"/> 
 </td>
@@ -20,6 +21,7 @@ Department of Automation, Tsinghua University<br>
 Bachelor of Engineering. Sep. 2016 - Jun. 2020<br>
 Department of Engineering Mechanics, Tsinghua University<br>
 </td>
+</tr>
 
 </table>    
 </div>
