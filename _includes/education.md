@@ -1,7 +1,4 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Education</h2>
-
-<div class="publications">
-<ol class="bibliography">
+<h2 style="margin: 2px 0px -15px;">Education</h2>
 
 {% for link in site.data.education.main %}
 
