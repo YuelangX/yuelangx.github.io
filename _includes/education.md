@@ -13,13 +13,9 @@
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
-    <div>
-      <a>PDF</a>
-    </div>
-    </div>
-      <a>Code</a>
-    </div>
   </div>
+  <div><a>PDF</a></div>
+  </div><a>Code</a></div>
 </div>
 
 <br>
