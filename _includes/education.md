@@ -4,7 +4,7 @@
 
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=50;height=20%">
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=25;height=25">
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <a href="{{ link.pdf }}">{{ link.title }}</a>
