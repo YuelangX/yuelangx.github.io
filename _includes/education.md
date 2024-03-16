@@ -14,7 +14,7 @@ Department of Automation, Tsinghua University<br>
 </tr>
 
 <tr>
-<td style="padding:30px;width:20%;vertical-align:middle;border:none" align="center">
+<td style="margin: 2px 0px -15px;padding:30px;width:20%;vertical-align:middle;border:none" align="center">
 <img width="100" src="./assets/img/tsinghua.png"/> 
 </td>
 <td style="padding:0px;width:80%;vertical-align:middle;border: none" align="left">
