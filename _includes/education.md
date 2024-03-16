@@ -5,7 +5,7 @@
   
 <tr>
 <td style="padding:20px;width:12%;vertical-align:middle;border:none" align="center">
-<img width="60" src="./assets/img/tsinghua.png"/> 
+<img width="100" src="./assets/img/tsinghua.png"/> 
 </td>
 <td style="padding:20px;width:88%;vertical-align:middle;border: none" align="left">
 Ph.D. Student. Sep. 2020 - Jun. 2025<br>
@@ -15,7 +15,7 @@ Department of Automation, Tsinghua University<br>
 
 <tr>
 <td style="padding:20px;width:12%;vertical-align:middle;border:none" align="center">
-<img width="60" src="./assets/img/tsinghua.png"/> 
+<img width="100" src="./assets/img/tsinghua.png"/> 
 </td>
 <td style="padding:20px;width:88%;vertical-align:middle;border: none" align="left">
 Bachelor of Engineering. Sep. 2016 - Jun. 2020<br>
