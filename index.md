@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am currently a 4th year Ph.D. student at Department of Automation, Tsinghua University, advised by Prof. Yebin Liu.
+I am currently a 4th year Ph.D. student at Department of Automation, Tsinghua University, advised by <li><a href="https://www.liuyebin.com/"><autocolor>Prof. Yebin Liu</autocolor></a></li>. 
 
 ## Research Interests
 
