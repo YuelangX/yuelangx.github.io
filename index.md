@@ -11,11 +11,8 @@ I am currently a 4th year Ph.D. student at Department of Automation, Tsinghua Un
 - **3D Computer Vision:** 3D head avatar reconstruction and animation
 - **Computer Graphics:** NeRF, 3D Gaussian Splatting
 
-## Education
 
-- **3D Computer Vision:** 3D head avatar reconstruction and animation
-- **Graphics:** NeRF, 3D Gaussian Splatting
-
+{% include_relative _includes/education.md %}
 
 {% include_relative _includes/publications.md %}
 
