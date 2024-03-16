@@ -17,7 +17,7 @@ Department of Automation, Tsinghua University<br>
 <img width="80" src="./assets/img/tsinghua.png"/> 
 </td>
 <td style="padding:20px;width:75%;vertical-align:middle;border: none" align="left">
-Ph.D. Student. Sep. 2020 - Jun. 2025<br>
+Bachelor of Engineering. Sep. 2016 - Jun. 2020<br>
 Department of Engineering Mechanics, Tsinghua University<br>
 </td>
 
