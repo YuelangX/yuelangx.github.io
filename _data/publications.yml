@@ -1,6 +1,6 @@
 main:
 
-  - title: Gaussian Head Avatar: Ultra High-fidelity Head Avatar via Dynamic Gaussians
+  - title: "Gaussian Head Avatar: Ultra High-fidelity Head Avatar via Dynamic Gaussians"
     authors: <strong>Yuelang Xu</strong>, Benwang Chen, Zhe Li, Hongwen Zhang, Lizhen Wang, Zerong Zheng, Yebin Liu
     conference_short: CVPR
     conference: <strong>CVPR 2024</strong>.
@@ -9,7 +9,7 @@ main:
     page: https://yuelangx.github.io/gaussianheadavatar
     image: ./assets/img/gaussian_head_avatar.png
 
-  - title: High-Fidelity 3D Head Avatars Reconstruction through Spatially-Varying Expression Conditioned Neural Radiance Field
+  - title: "High-Fidelity 3D Head Avatars Reconstruction through Spatially-Varying Expression Conditioned Neural Radiance Field"
     authors: Minghan Qin, Yifan Liu, <strong>Yuelang Xu</strong>, Xiaochen Zhao, Yebin Liu, Haoqian Wang
     conference_short: AAAI
     conference: <strong>AAAI 2023</strong>.
@@ -18,7 +18,7 @@ main:
     page: https://minghanqin.github.io/AvatarSVE/
     image: ./assets/img/avatarsve.jpg
 
-  - title: LatentAvatar: Learning Latent Expression Code for Expressive Neural Head Avatar
+  - title: "LatentAvatar: Learning Latent Expression Code for Expressive Neural Head Avatar"
     authors: <strong>Yuelang Xu</strong>, Hongwen Zhang, Lizhen Wang, Xiaochen Zhao, Han Huang, Guojun Qi, Yebin Liu
     conference_short: SIGGRAPH
     conference: <strong>SIGGRAPH 2023</strong>.
@@ -27,7 +27,7 @@ main:
     page: https://www.liuyebin.com/latentavatar/
     image: ./assets/img/latentavatar.jpg
 
-  - title: AvatarMAV: Fast 3D Head Avatar Reconstruction Using Motion-Aware Neural Voxels
+  - title: "AvatarMAV: Fast 3D Head Avatar Reconstruction Using Motion-Aware Neural Voxels"
     authors: <strong>Yuelang Xu</strong>, Lizhen Wang, Xiaochen Zhao, Hongwen Zhang, Yebin Liu
     conference_short: SIGGRAPH
     conference: <strong>SIGGRAPH 2023</strong>.
@@ -36,7 +36,7 @@ main:
     page: https://www.liuyebin.com/avatarmav/
     image: ./assets/img/avatarmav.jpg
 
-  - title: Pie-net: Parametric inference of point cloud edges
+  - title: "Pie-net: Parametric inference of point cloud edges"
     authors: Xiaogang Wang, <strong>Yuelang Xu</strong>, Kai Xu, Andrea Tagliasacchi, Bin Zhou, Ali Mahdavi-Amiri, Hao Zhang
     conference_short: NeurIPS
     conference: <strong>NeurIPS 2020</strong>.
