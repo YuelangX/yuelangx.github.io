@@ -35,3 +35,11 @@ main:
     code: https://github.com/YuelangX/AvatarMAV
     page: https://www.liuyebin.com/avatarmav/
     image: ./assets/img/avatarmav.jpg
+
+  - title: Pie-net: Parametric inference of point cloud edges
+    authors: Xiaogang Wang, <strong>Yuelang Xu</strong>, Kai Xu, Andrea Tagliasacchi, Bin Zhou, Ali Mahdavi-Amiri, Hao Zhang
+    conference_short: NeurIPS
+    conference: <strong>NeurIPS 2020</strong>.
+    pdf: https://arxiv.org/pdf/2007.04883.pdf
+    code: https://github.com/wangxiaogang866/PIE-NET
+    image: ./assets/img/pie-net.png
