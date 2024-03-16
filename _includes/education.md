@@ -12,9 +12,9 @@
     {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <a href="{{ link.pdf }}">{{ link.title }}</a>
-    <div>PDF</div>
-    </div>Code</div>
+    <a href="{{ link.pdf }}">{{ link.title }}</a>
+    PDF
+    Code
 </div>
 
 <br>
