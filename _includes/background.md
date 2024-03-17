@@ -15,16 +15,6 @@ Department of Automation, Tsinghua University<br>
 
 <tr>
 <td style="padding:10px;width:12%;vertical-align:middle;border:none" align="center">
-<img width="100" src="./assets/img/simon_fraser.png"/> 
-</td>
-<td style="padding:5px;width:80%;vertical-align:middle;border: none" align="left">
-Visiting Student. Oct. 2019 - Feb. 2020<br>
-GrUVi Lab, Simon Fraser University<br>
-</td>
-</tr>
-
-<tr>
-<td style="padding:10px;width:12%;vertical-align:middle;border:none" align="center">
 <img width="100" src="./assets/img/tsinghua.png"/> 
 </td>
 <td style="padding:5px;width:80%;vertical-align:middle;border: none" align="left">
