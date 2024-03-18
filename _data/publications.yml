@@ -36,7 +36,7 @@ main:
     page: https://www.liuyebin.com/avatarmav/
     image: ./assets/img/avatarmav.jpg
 
-  - title: "Pie-net: Parametric Inference of Point Cloud Edges"
+  - title: "Pie-Net: Parametric Inference of Point Cloud Edges"
     authors: Xiaogang Wang, <strong>Yuelang Xu</strong>, Kai Xu, Andrea Tagliasacchi, Bin Zhou, Ali Mahdavi-Amiri, Hao Zhang
     conference_short: NeurIPS
     conference: <strong>NeurIPS 2020</strong>.
