@@ -1,5 +1,6 @@
 main:
-   - title: "3D Gaussian Parametric Head Model"
+  
+  - title: "3D Gaussian Parametric Head Model"
     authors: <strong>Yuelang Xu</strong>, Lizhen Wang, Zhaoqi Su, Zerong Zheng, Yebin Liu
     conference_short: ECCV
     conference: <strong>ECCV 2024</strong>.
