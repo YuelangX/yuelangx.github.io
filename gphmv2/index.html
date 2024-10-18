@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gaussian Head Avatar's Project Page</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  </head>
+
+  <!-- cover -->
+  <section>
+    <div class="jumbotron text-center mt-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center">GPHM: </h2>
+            <h2 class="text-center">Gaussian Parametric Head Model for Monocular Head Avatar Reconstruction</h2>
+            <hr>
+            <h6 class="text-center"><a href="https://yuelangx.github.io/">Yuelang Xu<sup>1</sup></a>, <a href="https://suzhaoqi.github.io/">Zhaoqi Su<sup>1</sup></a>, Qingyao Wu<sup>2</sup>, <a href="http://www.liuyebin.com/">Yebin Liu<sup>1</sup></a></h6>
+            <p class="text-center"><sup>1</sup>Tsinghua University  <sup>2</sup>South China University of Technology</p>
+            <!-- <p> <a class="btn btn-secondary btn-lg" href="" role="button">Paper</a> 
+                <a class="btn btn-secondary btn-lg" href="" role="button">Code</a> 
+                <a class="btn btn-secondary btn-lg" href="" role="button">Data</a> </p> -->
+
+            <div class="row justify-content-center">
+              <div class="column">
+                <p class="mb-5"><a class="btn btn-large btn-light" href="https://yuelangx.github.io/GPHMv2" role="button"  target="_blank">
+                  <i class="fa fa-file"></i> ArXiv</a> </p>
+              </div>
+              <div class="column">
+                  <p class="mb-5"><a class="btn btn-large btn-light" href="assets/GPHM.pdf" role="button"  target="_blank">
+                    <i class="fa fa-file"></i> Paper</a> </p>
+              </div>
+              <div class="column">
+                <p class="mb-5"><a class="btn btn-large btn-light" href="https://yuelangx.github.io/GPHMv2" role="button"  target="_blank">
+                  <i class="fa fa-youtube"></i> Video</a> </p>
+              </div>
+              <div class="column">
+                  <p class="mb-5"><a class="btn btn-large btn-light" href="https://github.com/YuelangX/GPHMv2" role="button"  target="_blank">
+                    <i class="fa fa-github"></i> Code</a> </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- abstract -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h3>Abstract</h3>
+              <!-- <br><br> -->
+          <p class="text-left"> Creating high-fidelity 3D human head avatars is crucial for applications in VR/AR, digital human, and film production. 
+            Recent advances have leveraged morphable face models to generate animated head avatars from easily accessible data, representing varying identities and expressions within a low-dimensional parametric space. 
+            However, existing methods often struggle with modeling complex appearance details, e.g., hairstyles, and suffer from low rendering quality and efficiency. 
+            This paper introduces a novel approach, 3D Gaussian Parametric Head Model, which employs 3D Gaussians to accurately represent the complexities of the human head, allowing precise control over both identity and expression. 
+            The Gaussian model can handle intricate details, enabling realistic representations of varying appearances and complex expressions. 
+            Furthermore, this paper presents a well-designed training framework to ensure smooth convergence, providing a robust guarantee for learning the rich content. 
+            Our method achieves high-quality, photo-realistic rendering with real-time efficiency, making it a valuable contribution to the field of parametric head models.
+            Finally, this paper applies the 3D Gaussian Parametric Head Model to monocular video or few-shot head avatar reconstruction tasks, which enables instant reconstruction of high-quality 3D head avatars even when input data is extremely limited, surpassing previous methods in terms of reconstruction quality and training speed.
+            </p>
+            <p class="text-left">&nbsp;</p>
+            <img src="assets/teaser.jpg" width="1080" alt="">
+            <p class="text-left">Fig 1.We utilize hybrid datasets comprising captured multi-view video data and rendered image data from 3D scans for training our model. 
+              The trained model can be manipulated using decoupled identity and expression codes to produce a diverse array of high-fidelity head models. 
+              When presented with an image, our model can be adjusted to reconstruct the portrait in the image and edit the expression according to any other desired expressions.</p>
+            <p>&nbsp;</p>
+            <hr>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+
+  <section>
+    <div class="container">
+      <div class="row">
+          <div class="col-12 text-center">
+            <h3>Method</h3>
+            <img src="assets/method.jpg" width="1080" alt="">
+            <p class="text-left">Fig 2.&nbsp;Overview.
+              The overview of our GPHM model. 
+              Our training strategy can be divided into a Guiding Geometry Model for initialization, and a final 3D Gaussian Parametric Head Model. 
+              Deformations of each model are further decoupled into identity-related, expression-related and non-face deformations. For the expression condition images, we input crop groundtruth face image or synthesized images via LivePortrait. 
+              For the non-face motion condition, we input groundtruth images with the face area masked. The renderer involves a convolutional refine network &Psi;, which finally transfers the feature maps from mesh/Gaussian renderer to fine portrait images. 
+              During inference, our output exclusively comes from the Gaussian model.</p>
+            <p>&nbsp;</p>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-center">
+            <video width="1080" height=""  muted autoplay="autoplay" loop="loop">
+              <source src="assets/id_interp.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-12 text-center">
+            <video width="1080" height=""  muted autoplay="autoplay" loop="loop">
+              <source src="assets/exp_interp.mp4" type="video/mp4">
+            </video>
+            <hr>
+            <p>&nbsp;</p>
+          </div>
+        </div>
+        
+
+        <div class="row">
+          <div class="col-12 text-center">
+            <h3>Head Avatar from Monocular Videos</h3>
+            <video width="1080" height=""  muted autoplay="autoplay" loop="loop">
+              <source src="assets/Self_Reenactment.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-center">
+            <video width="1080" height=""  muted autoplay="autoplay" loop="loop">
+              <source src="assets/Cross_Reenactment.mp4" type="video/mp4">
+            </video>
+            <hr>
+            <p>&nbsp;</p>
+          </div>
+        </div>
+          
+        <div class="row">
+          <div class="col-12 text-center">
+            <h3>Novel View Synthesis</h3>
+            <video width="1080" height=""  muted autoplay="autoplay" loop="loop">
+              <source src="assets/Novel_View_Synthesis.mp4" type="video/mp4">
+            </video>
+            <hr>
+            <p>&nbsp;</p>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-12 text-center">
+            <h3>Ablation: Few-shot Input</h3>
+            <video width="1080" height=""  muted autoplay="autoplay" loop="loop">
+              <source src="assets/Few-shot_Input.mp4" type="video/mp4">
+            </video>
+            <hr>
+            <p>&nbsp;</p>
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-12 text-center">
+            <h3>Ablation: Utilizing Synthesized Expression Condition Images</h3>
+            <video width="1080" height=""  muted autoplay="autoplay" loop="loop">
+              <source src="assets/Utilizing_Stnthesized.mp4" type="video/mp4">
+            </video>
+            <hr>
+            <p>&nbsp;</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-center">
+            <h3>Image Fitting and Comparisons</h3>
+            <video width="1080" height=""  muted autoplay="autoplay" loop="loop">
+              <source src="assets/Image_Fitting.mp4" type="video/mp4">
+            </video>
+            <hr>
+            <p>&nbsp;</p>
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+  <!-- overview video -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+            <h3>Demo Video</h3>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe style="clip-path: inset(1px 1px)" width="100%" height="100%" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            </div>
+            <hr>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+
+  <!-- citing -->
+  <div class="container">
+    <div class="row ">
+      <div class="col-12">
+          <h3>Citation</h3>
+              <pre style="background-color: #e9eeef;padding: 1.25em 1.5em">
+              <code>@article{xu2024gphmv2,
+                title={GPHM: Gaussian Parametric Head Model for Monocular Head Avatar Reconstruction},
+                author={Xu, Yuelang and Su, Zhaoqi and Wu, Qingyao and Liu, Yebin},
+                booktitle={ArXiv},
+                year={2024}
+              }</code></pre>
+          <hr>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row ">
+      <div class="col-12">
+          <h3>Reference</h3>
+          <p class="text-left">
+            AvatarMAV: <em>Yuelang Xu, Lizhen Wang, Xiaochen Zhao, Hongwen Zhang, Yebin Liu. 
+              AvatarMAV: Fast 3D Head Avatar Reconstruction Using Motion-Aware Neural Voxels. 
+              ACM SIGGRAPH 2023 Conference Proceedings, 2023.</em>
+          </p>
+          <p class="text-left">
+            NeRFBlendShape: <em>Xuan Gao, Chenglai Zhong, Jun Xiang, Yang Hong, Yudong Guo, and Juyong Zhang. 
+              Reconstructing personalized semantic facial nerf models from monocular video. 
+              ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia), 2022.</em>
+          </p>
+          <p class="text-left">
+            INSTA: <em>Wojciech Zielonka, Timo Bolkart and Justus Thies. 
+              Instant Volumetric Head Avatars.
+              In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition(CVPR), 2023.</em>
+          </p>
+          <p class="text-left">
+            FlashAvatar: <em>Jun Xiang, Xuan Gao, Yudong Guo and Juyong Zhang. 
+              FlashAvatar: High-fidelity Head Avatar with Efficient Gaussian Embedding. 
+              In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition(CVPR), 2024.</em>
+          </p>
+          <p class="text-left">
+            SplattingAvatar: <em>Zhijing Shao, Zhaolong Wang, Zhuang Li, Duotun Wang, Xiangru Lin, Yu Zhang, Mingming Fan, Zeyu Wang. 
+              SplattingAvatar: Realistic Real-Time Human Avatars with Mesh-Embedded Gaussian Splatting. 
+              In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition(CVPR), 2024.</em>
+          </p>
+          <p class="text-left">
+            LivePortrait: <em>Zhijing Shao, Zhaolong Wang, Zhuang Li, Duotun Wang, Xiangru Lin, Yu Zhang, Mingming Fan, Zeyu Wang. 
+              Liveportrait: Efficient Portrait Animation with Stitching and Retargeting Control. 
+              arXiv preprint arXiv:2407.03168.</em>
+          </p>
+          <hr>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
