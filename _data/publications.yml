@@ -23,7 +23,7 @@ main:
     conference: <strong>ECCV 2024</strong>.
     pdf: https://arxiv.org/pdf/2407.15070v1
     code: https://github.com/YuelangX/GPHM
-    page: https://github.com/YuelangX/GPHM
+    page: https://yuelangx.github.io/gphm/
     image: ./assets/img/3dgphm.jpg
     
   - title: "Gaussian Head Avatar: Ultra High-fidelity Head Avatar via Dynamic Gaussians"
