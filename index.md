@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am currently a 5th year Ph.D. student at Department of Automation, Tsinghua University, advised by <a href="https://www.liuyebin.com/">Prof. Yebin Liu</a>. I'm currently interning at Alibaba Tongyi Lab.
+I am currently a 5th year Ph.D. student at Department of Automation, Tsinghua University, advised by <a href="https://www.liuyebin.com/">Prof. Yebin Liu</a>. I'm currently interning at Institute for Intelligent Computing, Alibaba Group.
 
 
 ## Research Interests
