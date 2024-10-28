@@ -1,12 +1,29 @@
 main:
+  - title: "GPHM: Gaussian Parametric Head Model for Monocular Head Avatar Reconstruction"
+    authors: <strong>Yuelang Xu</strong>, Zhaoqi Su, Qingyao Wu, Yebin Liu
+    conference_short: TPAMI(submitted)
+    conference: <strong>TPAMI(submitted)</strong>.
+    pdf: https://arxiv.org/pdf/2407.15070
+    code: https://github.com/YuelangX/GPHMv2
+    page: https://yuelangx.github.io/gphmv2/
+    image: ./assets/img/gphmv2.jpg
   
+  - title: "HHAvatar: Gaussian Head Avatar with Dynamic Hairs"
+    authors: Zhanfeng Liao*, <strong>Yuelang Xu*</strong>, Zhe Li, Qijing Li, Boyao Zhou, Ruifeng Bai, Di Xu, Hongwen Zhang, Yebin Liu
+    conference_short: TPAMI(submitted)
+    conference: <strong>TPAMI(submitted)</strong>.
+    pdf: https://liaozhanfeng.github.io/HHAvatar/
+    code: https://liaozhanfeng.github.io/HHAvatar/
+    page: https://liaozhanfeng.github.io/HHAvatar/
+    image: ./assets/img/hhavatar.jpg
+    
   - title: "3D Gaussian Parametric Head Model"
     authors: <strong>Yuelang Xu</strong>, Lizhen Wang, Zerong Zheng, Zhaoqi Su, Yebin Liu
     conference_short: ECCV
     conference: <strong>ECCV 2024</strong>.
-    pdf: https://github.com/YuelangX/3DGPHM
-    code: https://github.com/YuelangX/3DGPHM
-    page: https://github.com/YuelangX/3DGPHM
+    pdf: https://arxiv.org/pdf/2407.15070v1
+    code: https://github.com/YuelangX/GPHM
+    page: https://github.com/YuelangX/GPHM
     image: ./assets/img/3dgphm.jpg
     
   - title: "Gaussian Head Avatar: Ultra High-fidelity Head Avatar via Dynamic Gaussians"
