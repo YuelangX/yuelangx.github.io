@@ -1,7 +1,7 @@
 main:
   - title: "GPHM: Gaussian Parametric Head Model for Monocular Head Avatar Reconstruction"
     authors: <strong>Yuelang Xu</strong>, Zhaoqi Su, Qingyao Wu, Yebin Liu
-    conference_short: arXiv 2024
+    conference_short: arXiv
     conference: <strong>arXiv 2024</strong>.
     pdf: https://arxiv.org/pdf/2407.15070
     code: https://github.com/YuelangX/GPHMv2
@@ -10,7 +10,7 @@ main:
   
   - title: "HHAvatar: Gaussian Head Avatar with Dynamic Hairs"
     authors: Zhanfeng Liao*, <strong>Yuelang Xu*</strong>, Zhe Li, Qijing Li, Boyao Zhou, Ruifeng Bai, Di Xu, Hongwen Zhang, Yebin Liu
-    conference_short: arXiv 2024
+    conference_short: arXiv
     conference: <strong>arXiv 2024</strong>.
     pdf: https://liaozhanfeng.github.io/HHAvatar/
     code: https://liaozhanfeng.github.io/HHAvatar/
