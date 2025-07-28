@@ -1,8 +1,8 @@
 main:
   - title: "GPHM: Gaussian Parametric Head Model for Monocular Head Avatar Reconstruction"
     authors: <strong>Yuelang Xu</strong>, Zhaoqi Su, Qingyao Wu, Yebin Liu
-    conference_short: arXiv
-    conference: <strong>arXiv 2024</strong>.
+    conference_short: TPAMI
+    conference: <strong>TPAMI 2025</strong>.
     pdf: https://arxiv.org/pdf/2407.15070
     code: https://github.com/YuelangX/GPHMv2
     page: https://yuelangx.github.io/gphmv2/
@@ -10,8 +10,8 @@ main:
   
   - title: "HHAvatar: Gaussian Head Avatar with Dynamic Hairs"
     authors: Zhanfeng Liao*, <strong>Yuelang Xu*</strong>, Zhe Li, Qijing Li, Boyao Zhou, Ruifeng Bai, Di Xu, Hongwen Zhang, Yebin Liu
-    conference_short: arXiv
-    conference: <strong>arXiv 2024</strong>.
+    conference_short: TPAMI
+    conference: <strong>TPAMI 2025</strong>.
     pdf: https://liaozhanfeng.github.io/HHAvatar/
     code: https://liaozhanfeng.github.io/HHAvatar/
     page: https://liaozhanfeng.github.io/HHAvatar/
@@ -38,7 +38,7 @@ main:
   - title: "High-Fidelity 3D Head Avatars Reconstruction through Spatially-Varying Expression Conditioned Neural Radiance Field"
     authors: Minghan Qin, Yifan Liu, <strong>Yuelang Xu</strong>, Xiaochen Zhao, Yebin Liu, Haoqian Wang
     conference_short: AAAI
-    conference: <strong>AAAI 2023</strong>.
+    conference: <strong>AAAI 2024</strong>.
     pdf: https://arxiv.org/pdf/2310.06275.pdf
     code: https://github.com/minghanqin/AvatarSVE
     page: https://minghanqin.github.io/AvatarSVE/
