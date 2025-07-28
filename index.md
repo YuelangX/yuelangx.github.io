@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am currently a 5th year Ph.D. student at Department of Automation, Tsinghua University, advised by <a href="https://www.liuyebin.com/">Prof. Yebin Liu</a>. I'm currently interning at Institute for Intelligent Computing, Alibaba Group.
+I am currently a reseacher at Tongyi Lab, Alibaba Group working on human video generation and digital human. Prior to that, I obtained my Ph.D. degree from Department of Automation, Tsinghua University, advised by <a href="https://www.liuyebin.com/">Prof. Yebin Liu</a>. 
 
 
 ## Research Interests
